@@ -395,61 +395,63 @@
                     class="px-4 py-1.5 text-sm font-semibold text-slate-600 hover:text-slate-900 hover:bg-white rounded-full transition-all">FAQ</a>
             </div>
 
-            <!-- Language Dropdown (Desktop) -->
-            <div class="hidden md:block relative mr-6 group">
-                <button
-                    class="flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-slate-900 transition-colors py-2">
-                    <span class="uppercase flex items-center gap-2">
-                        <img src="https://flagcdn.com/w40/pt.png" alt="PT"
-                            class="w-5 h-auto rounded-sm shadow-sm object-cover">
-                        PT
-                    </span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="lucide lucide-chevron-down w-4 h-4 transition-transform group-hover:rotate-180">
-                        <path d="m6 9 6 6 6-6" />
-                    </svg>
-                </button>
-                <div
-                    class="absolute right-0 top-full mt-2 w-48 bg-white border border-slate-200 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-right z-50 overflow-hidden">
-                    <a href="index.html"
-                        class="flex items-center gap-3 px-4 py-3 text-sm text-slate-900 bg-orange-50 font-medium border-l-4 border-orange-500">
-                        <img src="https://flagcdn.com/w40/pt.png" alt="PT"
-                            class="w-5 h-auto rounded-sm shadow-sm object-cover">
-                        Português
-                    </a>
-                    <a href="#" onclick="alert('Versão em Inglês em breve!')"
-                        class="flex items-center gap-3 px-4 py-3 text-sm text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-colors border-l-4 border-transparent">
-                        <img src="https://flagcdn.com/w40/gb.png" alt="EN"
-                            class="w-5 h-auto rounded-sm shadow-sm object-cover">
-                        English
-                    </a>
-                    <a href="#" onclick="alert('Versão em Romeno em breve!')"
-                        class="flex items-center gap-3 px-4 py-3 text-sm text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-colors border-l-4 border-transparent">
-                        <img src="https://flagcdn.com/w40/ro.png" alt="RO"
-                            class="w-5 h-auto rounded-sm shadow-sm object-cover">
-                        Română
-                    </a>
+            <div class="hidden md:flex items-center gap-4">
+                <!-- Language Dropdown (Desktop) -->
+                <div class="hidden md:block relative group">
+                    <button
+                        class="flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-slate-900 transition-colors py-2">
+                        <span class="uppercase flex items-center gap-2">
+                            <img src="https://flagcdn.com/w40/pt.png" alt="PT"
+                                class="w-5 h-auto rounded-sm shadow-sm object-cover">
+                            PT
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-chevron-down w-4 h-4 transition-transform group-hover:rotate-180">
+                            <path d="m6 9 6 6 6-6" />
+                        </svg>
+                    </button>
+                    <div
+                        class="absolute right-0 top-full mt-2 w-48 bg-white border border-slate-200 rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-right z-50 overflow-hidden">
+                        <a href="index.html"
+                            class="flex items-center gap-3 px-4 py-3 text-sm text-slate-900 bg-orange-50 font-medium border-l-4 border-orange-500">
+                            <img src="https://flagcdn.com/w40/pt.png" alt="PT"
+                                class="w-5 h-auto rounded-sm shadow-sm object-cover">
+                            Português
+                        </a>
+                        <a href="#" onclick="alert('Versão em Inglês em breve!')"
+                            class="flex items-center gap-3 px-4 py-3 text-sm text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-colors border-l-4 border-transparent">
+                            <img src="https://flagcdn.com/w40/gb.png" alt="EN"
+                                class="w-5 h-auto rounded-sm shadow-sm object-cover">
+                            English
+                        </a>
+                        <a href="#" onclick="alert('Versão em Romeno em breve!')"
+                            class="flex items-center gap-3 px-4 py-3 text-sm text-slate-600 hover:bg-slate-50 hover:text-slate-900 transition-colors border-l-4 border-transparent">
+                            <img src="https://flagcdn.com/w40/ro.png" alt="RO"
+                                class="w-5 h-auto rounded-sm shadow-sm object-cover">
+                            Română
+                        </a>
+                    </div>
                 </div>
-            </div>
 
-            <a href="#oferta" class="hidden md:inline-flex animated-btn">
-                <div class="points_wrapper">
-                    <i class="point"></i><i class="point"></i><i class="point"></i><i class="point"></i><i
-                        class="point"></i>
-                    <i class="point"></i><i class="point"></i><i class="point"></i><i class="point"></i><i
-                        class="point"></i>
-                </div>
-                <span class="btn-inner">
-                    Começar Agora
-                    <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2">
-                        <path d="M5 12h14"></path>
-                        <path d="m12 5 7 7-7 7"></path>
-                    </svg>
-                </span>
-            </a>
+                <a href="#oferta" class="hidden md:inline-flex animated-btn">
+                    <div class="points_wrapper">
+                        <i class="point"></i><i class="point"></i><i class="point"></i><i class="point"></i><i
+                            class="point"></i>
+                        <i class="point"></i><i class="point"></i><i class="point"></i><i class="point"></i><i
+                            class="point"></i>
+                    </div>
+                    <span class="btn-inner">
+                        Começar Agora
+                        <svg class="btn-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
 
             <button id="mobile-menu-btn"
                 class="md:hidden flex items-center justify-center w-10 h-10 rounded-lg hover:bg-slate-100 transition-colors">
